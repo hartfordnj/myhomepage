@@ -1,4 +1,24 @@
+/* color palette
+#6b6461 #faebd7 #185a6f #151515 #bb514f #245558 
+ */
+
+body {
+  background-color: #faebd7;
+}
+
 .top-header {
+  color: #bb514f;
   font-size: larger;
-  background-color: blue;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.main {
+  width: 500px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.main p {
+  color: #bb514f;
 }
