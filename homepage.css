@@ -4,13 +4,54 @@
 
 body {
   background-color: #faebd7;
+  font-family: sans-serif;
+  margin: auto;
 }
 
-.top-header {
+.nick {
   color: #bb514f;
-  font-size: larger;
+  font-size: 150px;
+  font-size: 4vw
   text-align: center;
   font-family: sans-serif;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-weight: bold;
+
+  width: 500px;
+  margin: auto;
+}
+.last {
+  color: #bb514f;
+  font-size: 64px;
+  font-size: 4vw
+  text-align: center;
+  font-family: sans-serif;
+ 
+  padding-bottom: 0px;
+  font-weight: bold;
+
+  width: 500px;
+  margin: auto;
+}
+
+.intro {
+color: #6b6461;
+width: 500px;
+margin: auto;
+text-align: justify;
+font-weight: bold;
+}
+
+.timeline {
+  color: #185a6f;
+  font-size: 100px;
+ 
+  text-align: center;
+  font-family: sans-serif;
+  width: 500px;
+  margin: auto;
+  
 }
 
 .main {
