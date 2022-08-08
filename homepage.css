@@ -53,6 +53,7 @@ body {
   align-items: left;
 }
 
+/* IMAGES */
 .img-linkedin {
   margin-top: 3px;
   margin-left: 20px;
@@ -60,57 +61,23 @@ body {
   width: auto;
 }
 
+.img-briefcase {
+  margin-top: 3px;
+  color: #faebd7;
+  font-size: 60px;
+}
+
 .img-car {
   width: 100px;
   height: auto;
 }
 
-.box-upper {
-  padding-top: 20px;
-  /* width: 500px; */
-  margin: auto;
-}
-
-.box1 {
-  width: 49.5%;
-  height: 50px;
-  background-color: #185a6f;
-  display: inline-block;
-  align-items: left;
-  padding-right: -1px;
-}
-
-.box2 {
-  width: 49.5%;
-  height: 50px;
-
-  background-color: #bb514f;
-  display: inline-block;
-  align-items: right;
-  padding-left: -1px;
-}
-
-.box-lower {
-  /* width: 500px; */
-  margin: auto;
-}
-
-.box3 {
-  width: 49.5%;
-  height: 50px;
-  background-color: #6b6461;
-  display: inline-block;
-  align-items: left;
-  padding-right: -1px;
-}
-
-.box4 {
-  width: 49.5%;
-  height: 50px;
-  background-color: #245558;
-  display: inline-block;
-  align-items: right;
-  padding-left: -1px;
+/* TEXT */
+.text-portfolio {
+  margin-top: 25px;
+  color: #faebd7;
+  font-weight: bold;
+  text-align: center;
 }
 
 .nav-box {
@@ -181,22 +148,6 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
-}
-
-.abox {
-  margin: 2px;
-}
-.abox1 {
-  background-color: red;
-}
-.abox2 {
-  background-color: orange;
-}
-.abox3 {
-  background-color: purple;
-}
-.abox4 {
-  background-color: grey;
 }
 
 .timeline-container {
