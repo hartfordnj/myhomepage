@@ -104,7 +104,12 @@ body {
 .img-pencil {
   size: ;
   color: #bb514f;
-  font-size: 60px;
+  font-size: 75px;
+}
+
+.img-baby {
+  color:#245558;
+  font-size: 75px;
 }
 
 /* TEXT */
@@ -133,9 +138,7 @@ body {
   text-align: center;
 }
 
-.text-may2022 {
-color:#6b6461
-}
+
 
 .text-apr2022 {
   color:#6b6461
@@ -149,6 +152,10 @@ color:#6b6461
     color:#6b6461
     }
 
+.text-jun2020
+{
+  color:#6b6461
+  }
 /* NAV */
 .nav-box {
   padding-top: 20px;
@@ -234,96 +241,122 @@ color:#6b6461
   grid-template-rows: 1fr 1fr 1fr 1fr;
   padding-top: 25px;
 }
-
+/* S: ROW 1 */
 .timeline-box1 {
-  background-color: red;
+  /* background-color: red; */
   height: 125px;
   display: flex;
   justify-content: center;
 }
-.carpic {
-}
+
 .timeline-box2 {
-  background-color: blue;
+  /* background-color: blue; */
   height: 125px;
-  grid-column: 2 / 4;
+  grid-column: 2 / 5;
   /* display: flex;
   justify-content: center; */
-  display: flex; 
-  justify-content: center; 
-  align-items: center;
-  text-align: center;
+  /* display: flex;  */
+  justify-content: left; 
+  /* align-items:flex-start; */
+  text-align:center;
+  color: #6b6461;
 }
 
+.head-may {
+  /* color: red; */
+  /* background-color: olive; */
+    text-align: center;
+    margin-bottom: -20px;
+  }
+  .text-may2022 {
+  color:#6b6461
+  }
+/* E: ROW 1 */
+
+/* S: ROW 2 */
 .timeline-box3 {
   background-color: hotpink;
+  grid-column: 1 / 4;
   height: 125px;
-  display: flex;
-  justify-content: center;
-}
-
-
-
-.timeline-box4 {
-  background-color: gold;
-  height: 125px;
- 
-}
-
-.timeline-box5 {
-  background-color: green;
-  height: 125px;
-  grid-column: 2 / 4;
   /* display: flex;
   justify-content: center; */
-  display: flex; 
+  /* display: flex;  */
   justify-content: center; 
-  align-items: center;
-  text-align: center;
+  /* align-items:flex-start; */
+  text-align:center;
+  color: #6b6461;
 }
-
-.timeline-box6 {
+.timeline-box4 {
   background-color: purple;
   height: 125px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
-.timeline-box7 {
-  background-color: orange;
+.head-apr {
+  color: red;
+  background-color: olive;
+    text-align: center;
+    margin-bottom: -20px;
+  }
+  .text-apr2022 {
+  color:#6b6461
+  text-align: center;
+
+  }
+
+  /* E: ROW 2 */
+
+/* S: ROW 3 */
+.timeline-box5 {
+  /* background-color: red; */
   height: 125px;
   display: flex;
   justify-content: center;
 }
 
-.timeline-box8 {
-  background-color:teal;
+.timeline-box6 {
+  /* background-color: blue; */
   height: 125px;
-  grid-column: 2 / 4;
+  grid-column: 2 / 5;
   /* display: flex;
   justify-content: center; */
-  display: flex; 
-  justify-content: center; 
-  align-items: center;
-  text-align: center;
+  /* display: flex;  */
+  justify-content: left; 
+  /* align-items:flex-start; */
+  text-align:center;
+  color: #6b6461;
 }
 
+.head-oct {
+  /* color: red; */
+  /* background-color: olive; */
+    text-align: center;
+    margin-bottom: -20px;
+  }
+  .text-oct2022 {
+  color:#6b6461
+  }
+/* E: ROW 3 */
+
+
 .timeline-box9 {
-  background-color: coral;
+  /* background-color: coral; */
   height: 125px;
   display: flex;
   justify-content: center;
 }
 
 .timeline-box10 {
-  background-color: maroon;
+  /* background-color: maroon; */
   height: 125px;
  
 }
 
 .timeline-box11 {
-  background-color: lime;
+  /* background-color: lime; */
   height: 125px;
   grid-column: 2 / 4;
   /* display: flex;
@@ -335,9 +368,36 @@ color:#6b6461
 }
 
 .timeline-box12 {
-  background-color: steelblue;
+  /* background-color: steelblue; */
   height: 125px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.timeline-box13 {
+  /* background-color: slateblue; */
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline-box14 {
+  /* background-color:teal; */
+  height: 125px;
+  grid-column: 2 / 4;
+  /* display: flex;
+  justify-content: center; */
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+}
+
+.timeline-box15 {
+  /* background-color: firebrick; */
+  height: 125px;
+  display: flex;
+  justify-content: center;
 }
