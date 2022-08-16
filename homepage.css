@@ -614,7 +614,7 @@ margin-bottom: 3px;
   display: grid;
   grid-template-columns: 1fr 1fr ;
   /* grid-template-rows: 1fr 1fr 1fr 1fr; */
-  grid-template-rows: 240px 240px 240px 240px;
+  grid-template-rows: 300px 300px 300px 300px;
   padding-top: 25px;
   padding-bottom: 25px;
   row-gap: 2px;
@@ -626,56 +626,32 @@ margin-bottom: 3px;
  /* background-color: #3988a0; */
  background-color: #185a6f;
  border: #185a6f solid 3px;
- /* border-top-left-radius: 25px; */
+ border-top-left-radius: 25px;
  /* height: 125px; */
- display: flex;
+ /* display: flex; */
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-template-rows: .5fr;
  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 
-}
-
-.port-box1-head {
-  background-color: #185a6f;
-  height: 50%;
-  text-align: center;
-  font-weight: bold;
-  color:#faebd7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  object-fit: contain;
 }
 
 .img-ihate1 {
   width: 100%;
-  height: 100%;
+  height: 150px;
   object-fit: cover;
   overflow: hidden ;
+  border-top-left-radius: 25px;
   /* object-fit: fill;
   border: #185a6f solid 2px;
  border-radius: 25px; */
 }
-
-.port-box2 {
-  /* background-color: #f8cb90; */
- /* background-color: #3988a0; */
- background-color:#bb514f;
- border: #bb514f solid 3px;
- /* border-top-left-radius: 25px; */
- /* height: 125px; */
- display: flex;
- flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-}
-
 .port-box1-head {
   background-color: #185a6f;
-  height: 50%;
+  height: 25px;
   text-align: center;
   font-weight: bold;
   color:#faebd7;
@@ -683,4 +659,134 @@ margin-bottom: 3px;
   align-items: center;
   justify-content: center;
   object-fit: contain;
+  margin-top: 2px;
+}
+
+.port-box1-body {
+  margin-top: 3px;
+  background-color: #185a6f;
+  height: 117px;
+  /* text-align: center; */
+  /* font-weight: bold; */
+  color:#faebd7;
+  display: flex;
+  /* align-items: center; */
+  justify-content: left;
+  object-fit: contain;
+  text-align: left;
+  font-size: small;
+}
+
+
+
+.port-box2 {
+  /* background-color: #f8cb90; */
+ /* background-color: #3988a0; */
+ background-color:#6b6461;
+ border: #6b6461 solid 3px;
+ border-top-right-radius: 25px;
+ /* height: 125px; */
+ /* display: flex; */
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-template-rows: .5fr;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.img-eval {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  overflow: hidden ;
+  border-top-right-radius: 25px;
+  /* object-fit: fill;
+  border: #6b6461; solid 2px;
+ border-radius: 25px; */
+}
+.port-box2-head {
+  background-color: #6b6461;
+  height: 25px;
+  text-align: center;
+  font-weight: bold;
+  color:#faebd7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  margin-top: 2px;
+}
+
+.port-box2-body {
+  margin-top: 3px;
+  background-color: #6b6461;
+  height: 117px;
+  /* text-align: center; */
+  /* font-weight: bold; */
+  color:#faebd7;
+  display: flex;
+  /* align-items: center; */
+  justify-content: left;
+  object-fit: contain;
+  text-align: left;
+  font-size: small;
+}
+
+.port-box3 {
+  /* background-color: #f8cb90; */
+ /* background-color: #3988a0; */
+ background-color:#bb514f;
+ border:#bb514f solid 3px;
+ border-top-left-radius: 25px;
+ /* height: 125px; */
+ /* display: flex; */
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-template-rows: .5fr;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.img-git {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  overflow: hidden ;
+  border-top-left-radius: 25px;
+  /* object-fit: fill;
+  border: #185a6f solid 2px;
+ border-radius: 25px; */
+}
+.port-box3-head {
+  background-color: #bb514f;
+  height: 25px;
+  text-align: center;
+  font-weight: bold;
+  color:#faebd7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  margin-top: 2px;
+}
+
+.port-box3-body {
+  margin-top: 3px;
+  background-color: #bb514f;
+  height: 117px;
+  /* text-align: center; */
+  /* font-weight: bold; */
+  color:#faebd7;
+  display: flex;
+  /* align-items: center; */
+  justify-content: left;
+  object-fit: contain;
+  text-align: left;
+  font-size: small;
 }
