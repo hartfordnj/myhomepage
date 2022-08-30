@@ -41,6 +41,20 @@ body {
   font-size: large;
 }
 
+.end-text {
+  text-align: center;
+  color: #6b6461;
+}
+
+.text-portfolio1 {
+  margin-top: 25px;
+  color: #faebd7;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  font-size: large;
+}
+
 .text-timeline {
   border: #185a6f solid;
   border-radius: 25px;
@@ -211,6 +225,12 @@ font-size: 80px;
   vertical-align: middle;
 }
 
+.nav-box1:hover {
+  /* background-color: blue; */
+  opacity: .50;
+}
+
+
 .nav-box1-link {
   position: absolute;
   width: 299px;
@@ -224,6 +244,11 @@ font-size: 80px;
   height: 65px;
   display: flex;
   justify-content: center;
+}
+
+.nav-box2:hover {
+  /* background-color: blue; */
+  opacity: .50;
 }
 
 .nav-box2-link {
@@ -242,11 +267,30 @@ font-size: 80px;
   justify-content: center;
 }
 
+.nav-box3:hover {
+  /* background-color: blue; */
+  opacity: .50;
+}
+
+.nav-box3-link {
+  position: absolute;
+  width: 299px;
+  height: 65px;
+  z-index: 1;
+  flex-grow: 1;
+}
+
+
 .nav-box4 {
   background-color: #245558;
   height: 65px;
   display: flex;
   justify-content: center;
+}
+
+.nav-box4:hover {
+  /* background-color: blue; */
+  opacity: .50;
 }
 
 .nav-box4-link {
@@ -612,7 +656,7 @@ margin-bottom: 3px;
   display: grid;
   grid-template-columns: 1fr 1fr ;
   /* grid-template-rows: 1fr 1fr 1fr 1fr; */
-  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px ;
   padding-top: 25px;
   padding-bottom: 25px;
   row-gap: 2px;
@@ -634,6 +678,11 @@ margin-bottom: 3px;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.port-box1:hover {
+  /* background-color: blue; */
+  opacity: .50;
 }
 
 .port-box1-link {
@@ -703,6 +752,11 @@ margin-bottom: 3px;
   text-align: center;
 }
 
+.port-box2:hover {
+  /* background-color: blue; */
+  opacity: .50;
+}
+
 .port-box2-link {
   position: absolute;
   width: 299px;
@@ -765,6 +819,11 @@ margin-bottom: 3px;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.port-box3:hover {
+  /* background-color: blue; */
+  opacity: .50;
 }
 
 .port-box3-link {
@@ -830,6 +889,11 @@ margin-bottom: 3px;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.port-box4:hover {
+  /* background-color: blue; */
+  opacity: .50;
 }
 
 .port-box4-link {
