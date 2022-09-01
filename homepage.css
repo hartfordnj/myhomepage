@@ -132,9 +132,18 @@ font-size: 80px;
   height: 85px;
 }
 
+.img-cptc:hover {
+  opacity: .50;
+}
+
+
 .img-tombolo {
   width: auto;
   height: 85px;
+}
+
+.img-tombolo:hover {
+  opacity: .50;
 }
 
 .img-pencil {
@@ -941,4 +950,10 @@ margin-bottom: 3px;
   object-fit: contain;
   text-align: left;
   font-size: small;
+}
+
+.credit {
+  color: #6b6461;
+  font-size: x-small;
+  text-align: center;
 }
